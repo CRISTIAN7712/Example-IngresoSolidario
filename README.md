@@ -13,9 +13,9 @@ Este proyecto es una maqueta responsive para la consulta del programa **Ingreso 
 ### 🖥️ Versión Escritorio
 ![Wireframe Escritorio](./assets/WireFrame/frame_2.jpg)
 
-![Wireframe Tablet](./assets/wireframe/frame_20.jpg)
+![Wireframe Tablet](./assets/WireFrame/frame_20.jpg)
 
-![Wireframe Móvil](./assets/wireframe/frame_11.jpg)
+![Wireframe Móvil](./assets/WireFrame/frame_11.jpg)
 
 ## 🧩 Estructura del Proyecto
 
