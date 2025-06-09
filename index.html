@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ingreso Solidario</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">¿Qué es?</a></li>
+        <li class="logo">
+          <img src="./assets/Menu_Bar.png" alt="Logo Gobierno">
+        </li>
+        <li><a href="#">Entrega</a></li>
+        <li><a href="#" class="btn-consultar">Consultar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contenido">
+    <section class="formulario">
+      <h2>Consulta tu estado del<br><strong>Ingreso Solidario</strong></h2>
+      <p>Por favor ingresa tus datos personales para revisar el estado de entrega de tu ingreso.</p>
+
+      <form>
+        <label for="tipo-doc">Tipo de Documento</label>
+        <select id="tipo-doc" name="tipo-doc">
+          <option>Cédula de ciudadanía</option>
+          <option>Tarjeta de identidad</option>
+          <option>Cédula de extranjería</option>
+        </select>
+
+        <label for="numero-doc">Número de Documento</label>
+        <input type="text" id="numero-doc" name="numero-doc" required>
+
+        <label for="nombre">Primer Nombre</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="apellido">Primer Apellido</label>
+        <input type="text" id="apellido" name="apellido" required>
+
+        <label for="fecha">Fecha de expedición del documento</label>
+        <input type="date" id="fecha" name="fecha" required>
+
+        <label for="telefono">Teléfono Móvil</label>
+        <input type="tel" id="telefono" name="telefono" required>
+
+        <button type="submit" class="btn-azul">Consultar</button>
+      </form>
+    </section>
+
+    <section class="descripcion">
+      <h2>Ingreso Solidario</h2>
+      <p>
+        Debido a la situación generada por el COVID-19, el gobierno nacional aportará a las familias más afectadas
+        y que no pertenezcan a ningún programa social, un subsidio por $160.000
+      </p>
+      <a href="#" class="btn-azul">Conocer más</a>
+    </section>
+  </main>
+</body>
+</html>
